@@ -13,9 +13,9 @@ module.exports = {
   edesc: "Type this command to get an invite link for the Bot, thanks for every Invite",
   execute(message, args, client) {
     //react with approve emoji
-    message.react("<a:setting:813404135181385759>");
+    message.react("<a:emoji_24:926360383424454686>");
     //send the invite embed
-    message.reply(new MessageEmbed().setColor("#146DF6").setTitle("").setDescription("<a:arbelearbele:780373854039572501> **[Click Here](https://discord.com/oauth2/authorize?client_id=758785943426564187&permissions=1076132928&scope=bot) to invite the bot.**")
+    message.reply(new MessageEmbed().setColor("#146DF6").setTitle("").setDescription(" <a:emoji_24:926360383424454686> **[Click Here](https://discord.com/api/oauth2/authorize?client_id=916776483366772756&permissions=8&scope=bot) to invite the bot.**")
     .setFooter(""));
   }
 }
