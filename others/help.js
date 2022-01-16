@@ -16,27 +16,27 @@ module.exports = {
 
     let helpEmbed = new MessageEmbed()
     .setThumbnail(`https://cdn.discordapp.com/avatars/758785943426564187/0d2e89ab452cb53f5cb7eaf14295470b.png?size=2048`)
-    .setAuthor(`Show Bot`, `https://cdn.discordapp.com/avatars/758785943426564187/0d2e89ab452cb53f5cb7eaf14295470b.png?size=2048`)
+    .setAuthor(`patrick Bot`, `https://cdn.discordapp.com/avatars/758785943426564187/0d2e89ab452cb53f5cb7eaf14295470b.png?size=2048`)
     .setDescription(`
 
-**User Commands**
+**__User Commands__**
 \`${PREFIX}invite\` - \`${PREFIX}support\` - \`${PREFIX}about\`
 \`${PREFIX}ping\` - \`${PREFIX}prefix\` - \`${PREFIX}uptime\`
 \`${PREFIX}avatar\` - \`${PREFIX}se\` - \`${PREFIX}invites\`
 
-**Music Commands**
+**__Music Commands__**
 \`${PREFIX}play\` - \`${PREFIX}skip\` - \`${PREFIX}skipto\`
 \`${PREFIX}stop\` - \`${PREFIX}volume\` - \`${PREFIX}nowplaying\`
 \`${PREFIX}shuffle\` - \`${PREFIX}search\` - \`${PREFIX}resume\`
 \`${PREFIX}remove\` - \`${PREFIX}queue\` - \`${PREFIX}filter\`
 \`${PREFIX}loop\` - \`${PREFIX}lyrics\` - \`${PREFIX}radio\`
 
-**Fun Commands**
+**__Fun Commands__**
 \`${PREFIX}lock\` - \`${PREFIX}unlock\` - \`${PREFIX}ban\`
 \`${PREFIX}unban\` - \`${PREFIX}slowmode\` - \`${PREFIX}giveaway\`
 
 **Links**
-[support](https://discord.gg/Zj5SFafHKG)    -    [invite](https://discord.com/api/oauth2/authorize?client_id=758785943426564187&permissions=1076132928&scope=bot)
+[support](https://discord.gg/V4JVrWnPtt)    -    [invite](https://discord.com/api/oauth2/authorize?client_id=916776483366772756&permissions=8&scope=bot)
 `)
 
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
